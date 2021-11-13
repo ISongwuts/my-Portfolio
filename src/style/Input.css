@@ -1,0 +1,19 @@
+.wrap-input-container{
+    padding: 1rem 0rem 1rem .5rem;
+    background-color: #2a2a2a;
+}
+.input-container{
+    max-width:120rem;
+    width:100%;
+    color: rgb(241, 241, 241);
+    
+}
+.input-box{
+    background-color:transparent;
+    color: rgb(241, 241, 241);
+    border: none;
+    width: 100rem;
+}
+.input-box:focus{
+    outline: none;
+}
