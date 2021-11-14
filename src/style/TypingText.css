@@ -1,0 +1,51 @@
+.Typing-container {
+  color: #fff;
+  max-width: 120rem;
+  width: 100%;
+  margin: 0 auto;
+  text-align:start;
+  margin-top: 21vh;
+  padding-left: 10vh;
+}
+.inline {
+  display: inline-block;
+}
+.content-1 {
+ font-size: 1.25vw;
+  letter-spacing: 2px;
+}
+.content-2 {
+  font-size: 2.5vw;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.content-3 {
+    font-size: 1vw;
+    color: rgb(214, 214, 214);
+    animation: fade 1.5s;
+}
+
+.highlight {
+    color: #f000;
+  background: #e96443;
+  background: linear-gradient(
+    to right,
+    rgb(6, 135, 240),
+    rgb(15, 185, 251),
+    rgb(112, 255, 183)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.wrap-content-1{
+    margin-top: 10vh;
+}

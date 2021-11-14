@@ -1,13 +1,11 @@
-import logo from './logo.svg';
-import Welcome from './components/Welcome';
-import Input from './components/Input'
-import './App.css';
+import "./App.css";
+import MainSection from "./sections/MainSection";
+
 
 function App() {
   return (
-    <div className="App">
-      <Welcome />
-      <Input />
+    <div>
+        <MainSection />
     </div>
   );
 }
