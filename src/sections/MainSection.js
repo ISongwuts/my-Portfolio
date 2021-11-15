@@ -3,7 +3,7 @@ import TypingText from '../Components/TypingText';
 import '../style/MainSection.css';
 function MainSection(){
     return(
-        <section className="MainSection">
+        <section className="MainSection" id="main-section">
             <Navbar />
             <TypingText />
         </section>

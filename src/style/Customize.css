@@ -18,6 +18,12 @@
   color: rgba(0, 0, 0, 0);
   font-weight: bold;
 }
+.navbar{
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+}
 
 @keyframes rainbow {
   0% {

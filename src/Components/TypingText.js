@@ -37,7 +37,7 @@ function TypingText() {
           &gt;
         </span>
       </div>
-      <div>
+      <div className="wrap-content-2">
         <span className="content-2">
           Hello!, Im &nbsp;
           {count_2 ? (
@@ -56,7 +56,7 @@ function TypingText() {
           )}
         </span>
       </div>
-      <div>
+      <div className="wrap-content-3">
         <p className="content-3">
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;This website was developed for the purpose of introducing myself
           to my visitors.
