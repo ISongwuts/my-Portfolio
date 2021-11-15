@@ -2,7 +2,6 @@ import { Nav, Navbar, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../style/Customize.css";
 import { FaFacebook, FaInstagram, FaTiktok, FaGithub } from "react-icons/fa";
-import { HashLink as Link } from 'react-router-hash-link'
 
 function NavbarComp() {
   return (
@@ -20,16 +19,16 @@ function NavbarComp() {
         </Navbar.Collapse>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">
+            <Nav.Link href="https://www.facebook.com/profile.php?id=100009561062285">
               <FaFacebook />
             </Nav.Link>
-            <Nav.Link href="#link">
+            <Nav.Link href="https://www.instagram.com/isongwut.me/">
               <FaInstagram />
             </Nav.Link>
-            <Nav.Link href="#link">
+            <Nav.Link href="https://www.tiktok.com/@isongwut?is_copy_url=1&is_from_webapp=v1&lang=th-TH">
               <FaTiktok />
             </Nav.Link>
-            <Nav.Link href="#link">
+            <Nav.Link href="https://github.com/ISongwuts">
               <FaGithub />
             </Nav.Link>
           </Nav>

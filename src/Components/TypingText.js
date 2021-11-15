@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../style/TypingText.css";
 import Typist from "react-typist";
 
+
 function TypingText() {
   const [count, setCount] = useState(1);
   const [count_2, setCount_2] = useState(1);
@@ -39,7 +40,7 @@ function TypingText() {
       </div>
       <div className="wrap-content-2">
         <span className="content-2">
-          Hello!, Im &nbsp;
+          Hello!, I'm &nbsp;
           {count_2 ? (
             <Typist
               className="inline"
@@ -55,6 +56,7 @@ function TypingText() {
             ""
           )}
         </span>
+        <span className="wave">👋</span>
       </div>
       <div className="wrap-content-3">
         <p className="content-3">
