@@ -1,9 +1,0 @@
-.SvgImg {
-  text-align: center;
-}
-.dev-img {
-  width: 35vh;
-  height: 35vh;
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-}

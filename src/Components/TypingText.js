@@ -47,9 +47,9 @@ function TypingText() {
               avgTypingDelay={80}
               onTypingDone={() => setCount_2(0)}
             >
-              <span className="highlight">Songwut Malisri</span>
+              <span className="highlight text-glow">Songwut Malisri</span>
               <Typist.Backspace count={35} delay={800} />
-              <span className="highlight">ICE</span>
+              <span className="highlight text-glow">ICE</span>
               <Typist.Backspace count={3} delay={800} />
             </Typist>
           ) : (

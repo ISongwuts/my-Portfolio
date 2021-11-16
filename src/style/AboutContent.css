@@ -1,0 +1,10 @@
+.AboutContent-container{
+    width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10vh;
+}
+.title{
+    font-weight: bold;
+    color: #fff;
+}
