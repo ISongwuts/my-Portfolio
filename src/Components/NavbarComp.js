@@ -13,8 +13,8 @@ function NavbarComp() {
             <Nav.Link href="#main-section">Home</Nav.Link>
             <Nav.Link href="#about-section">About</Nav.Link>
             <Nav.Link href="#skill-section">Skill</Nav.Link>
-            <Nav.Link href="#link">Projects</Nav.Link>
             <Nav.Link href="#link">Certificates</Nav.Link>
+            <Nav.Link href="#link">Projects</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         <Navbar.Collapse id="basic-navbar-nav">

@@ -1,9 +1,14 @@
 .SkillSection {
     max-width: 120rem;
-    max-height: 100vh;
+    max-height: 140vh;
     height: 100vh;
     background-image: url(../img/bg.jpg);
     background-size: cover;
-    overflow: hidden;
+    background-repeat: no-repeat;
   }
   
+@media only screen and (max-width: 768px) {
+    .SkillSection {
+        height: 100%;
+    }
+}
