@@ -1,0 +1,10 @@
+.CertificateSection {
+    max-width: 120rem;
+    max-height: 100vh;
+    height: 100vh;
+    background-image: url(../img/bg-3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:initial;
+    overflow: hidden;
+  }
