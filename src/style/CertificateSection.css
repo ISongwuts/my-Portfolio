@@ -1,10 +1,15 @@
 .CertificateSection {
-    max-width: 120rem;
-    max-height: 100vh;
-    height: 100vh;
-    background-image: url(../img/bg-3.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:initial;
-    overflow: hidden;
+  max-width: 120rem;
+  max-height: 450vh;
+  height: 245vh;
+  background-image: url(../img/bg-3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: initial;
+  overflow: hidden;
+}
+@media only screen and (max-width: 768px) {
+  .CertificateSection {
+    height: 100%;
   }
+}

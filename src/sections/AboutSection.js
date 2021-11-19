@@ -1,5 +1,4 @@
 import AboutContent from '../Components/AboutContent';
-import { useEffect } from 'react'
 import '../style/AboutSection.css';
 
 function AboutSection(){
