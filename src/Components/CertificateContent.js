@@ -14,19 +14,67 @@ import Cer12 from "../img/certificate/cer12.png";
 import Cer13 from "../img/certificate/cer13.png";
 
 function CertificateContent() {
-  const arr_img = [
-    Cer1,
-    Cer2,
-    Cer3,
-    Cer5,
-    Cer6,
-    Cer7,
-    Cer8,
-    Cer9,
-    Cer10,
-    Cer11,
-    Cer12,
-    Cer13,
+  const obj_img = [
+    {
+      img: Cer1,
+      title: "SoloLearn",
+      content: "Coding for Marketers course",
+    },
+    {
+      img: Cer2,
+      title: "KMITL K-Engineering",
+      content: "Robotics AI and Vision",
+    },
+    {
+      img: Cer3,
+      title: "SoloLearn",
+      content: "C++ Course",
+    },
+    {
+      img: Cer5,
+      title: "SoloLearn",
+      content: "React + Redux Course",
+    },
+    {
+      img: Cer6,
+      title: "SoloLearn",
+      content: "Python Core",
+    },
+    {
+      img: Cer7,
+      title: "ThaiMOOC",
+      content: "Internet of Things",
+    },
+    {
+      img: Cer8,
+      title: "ThaiMOOC",
+      content: "Graphics Computer",
+    },
+    {
+      img: Cer9,
+      title: "ThaiMOOC",
+      content: "Responsive Website Course",
+    },
+    {
+      img: Cer10,
+      title: "ThaiMOOC",
+      content: "C Language Programming",
+    },
+    {
+      img: Cer11,
+      title: "School Course",
+      content: "Google Applications",
+    },
+    {
+      img: Cer12,
+      title: "Mahidol University Extension",
+      content: "Internet of Things for living",
+    },
+    {
+      img: Cer13,
+      title: "School Course",
+      content: "Basic Computer",
+    },
   ];
   return (
     <div className="CertificateContent-container">
@@ -38,12 +86,12 @@ function CertificateContent() {
           <Row>
             <Col sm className="wrap-carousel">
               <Carousel className="carousel">
-                {arr_img.map((item, index) => {
+                {obj_img.map((item, index) => {
                   return (
                     <Carousel.Item key={index}>
                       <img
                         className="d-block w-100 cer-img"
-                        src={item}
+                        src={item.img}
                         alt={index}
                       />
                     </Carousel.Item>
@@ -53,16 +101,20 @@ function CertificateContent() {
             </Col>
           </Row>
           <Row className="wrap-expand-cer">
-            {arr_img.map((item, index) => {
+            {obj_img.map((item, index) => {
               return (
-                  <Col >
-                <div class="box">
-                  <img className="expand-cer-img" src={item} alt={index.toString}/>
-                  <div class="box-content">
-                    <h3 class="name">Crystal</h3>
-                    <span class="post">Web Designer</span>
+                <Col>
+                  <div class="box">
+                    <img
+                      className="expand-cer-img"
+                      src={item.img}
+                      alt={index.toString}
+                    />
+                    <div class="box-content">
+                      <h3 class="name">{item.title}</h3>
+                      <span class="post">{item.content}</span>
+                    </div>
                   </div>
-                </div>
                 </Col>
               );
             })}
