@@ -4,6 +4,7 @@ import Cer1 from "../img/certificate/cer1.jpg";
 import Cer2 from "../img/certificate/cer2.png";
 import Cer3 from "../img/certificate/cer3.jpg";
 import Cer5 from "../img/certificate/cer5.jpg";
+import Cer4 from "../img/certificate/cer4.png"
 import Cer6 from "../img/certificate/cer6.jpg";
 import Cer7 from "../img/certificate/cer7.png";
 import Cer8 from "../img/certificate/cer8.png";
@@ -30,6 +31,11 @@ function CertificateContent() {
       title: "SoloLearn",
       content: "C++ Course",
     },
+    {
+        img: Cer4,
+        title: "Google Digital Garage",
+        content: "Fundamentals of digital marketing",
+      },
     {
       img: Cer5,
       title: "SoloLearn",
