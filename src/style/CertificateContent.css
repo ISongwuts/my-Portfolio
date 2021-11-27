@@ -28,6 +28,11 @@
 .carousel {
   width: 60vw;
 }
+.wrap-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .box:before {
   content: "";
   position: absolute;

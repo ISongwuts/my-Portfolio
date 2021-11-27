@@ -6,3 +6,18 @@
     background-size: cover;
     
 }
+@media only screen and (max-width: 768px) {
+    .ProjectSection {
+        height: 100%;
+    }
+    .content-2{
+        text-align: center;
+        font-size: 1.65rem;
+    }
+    .content-1{
+        font-size: 1rem;
+    }
+    .content-3{
+        font-size: 1rem;
+    }
+}

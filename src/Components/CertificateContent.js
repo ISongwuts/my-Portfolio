@@ -4,7 +4,7 @@ import Cer1 from "../img/certificate/cer1.jpg";
 import Cer2 from "../img/certificate/cer2.png";
 import Cer3 from "../img/certificate/cer3.jpg";
 import Cer5 from "../img/certificate/cer5.jpg";
-import Cer4 from "../img/certificate/cer4.png"
+import Cer4 from "../img/certificate/cer4.png";
 import Cer6 from "../img/certificate/cer6.jpg";
 import Cer7 from "../img/certificate/cer7.png";
 import Cer8 from "../img/certificate/cer8.png";
@@ -13,6 +13,7 @@ import Cer10 from "../img/certificate/cer10.png";
 import Cer11 from "../img/certificate/cer11.png";
 import Cer12 from "../img/certificate/cer12.png";
 import Cer13 from "../img/certificate/cer13.png";
+import Cer14 from "../img/certificate/cer14.png";
 
 function CertificateContent() {
   const obj_img = [
@@ -32,10 +33,10 @@ function CertificateContent() {
       content: "C++ Course",
     },
     {
-        img: Cer4,
-        title: "Google Digital Garage",
-        content: "Fundamentals of digital marketing",
-      },
+      img: Cer4,
+      title: "Google Digital Garage",
+      content: "Fundamentals of digital marketing",
+    },
     {
       img: Cer5,
       title: "SoloLearn",
@@ -81,6 +82,11 @@ function CertificateContent() {
       title: "School Course",
       content: "Basic Computer",
     },
+    {
+      img: Cer14,
+      title: "School Activity",
+      content: "Microbit",
+    },
   ];
   return (
     <div className="CertificateContent-container">
@@ -109,7 +115,7 @@ function CertificateContent() {
           <Row className="wrap-expand-cer">
             {obj_img.map((item, index) => {
               return (
-                <Col>
+                <Col className="wrap-box">
                   <div class="box">
                     <img
                       className="expand-cer-img"

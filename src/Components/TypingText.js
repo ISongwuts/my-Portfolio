@@ -56,7 +56,6 @@ function TypingText() {
             ""
           )}
         </span>
-        <span className="wave">👋</span>
       </div>
       <div className="wrap-content-3">
         <p className="content-3">
