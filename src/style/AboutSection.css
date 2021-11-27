@@ -1,6 +1,6 @@
 .AboutSection {
   max-width: 120rem;
-  max-height: 100vh;
+  max-height: 120vh;
   height: 100vh;
   background-image: url(../img/bg-2.jpg);
   background-repeat: no-repeat;
@@ -10,6 +10,9 @@
 }
 @media only screen and (max-width: 768px) {
     .about-me{
-        font-size: 1rem;
+        font-size: .9rem;
+    }
+    .AboutSection{
+        height: 100%;
     }
 }
