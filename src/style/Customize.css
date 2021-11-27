@@ -1,38 +1,45 @@
 .navbar-light .navbar-nav .nav-link {
-    font-size: 1.75vh;
+  font-size: 1.75vh;
   color: #fff;
   font-weight: 600;
   display: block;
 }
 .navbar-light .navbar-nav .nav-link::after {
-    
-    content: '';
-    display: block;
-    width: 0;
-    height: 4px;
-    animation: rainbow 1s ease-in-out infinite;
-    background: linear-gradient(
+  content: "";
+  display: block;
+  width: 0;
+  height: 4px;
+  animation: rainbow 1s ease-in-out infinite;
+  background: linear-gradient(
     to right,
     rgb(6, 135, 240),
     rgb(15, 185, 251),
     rgb(112, 255, 183)
   );
-    transition: width .3s;
+  transition: width 0.3s;
 }
 .navbar-light .navbar-nav .nav-link:hover::after {
-    width: 100%;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .rows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
   color: rgb(231, 231, 231);
   font-weight: bold;
 }
-.navbar{
-    position: fixed;
-    width: 100%;
-    overflow: hidden;
-    top: 0;
-    z-index: 1;
+.navbar {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  z-index: 1;
 }
 
 @keyframes rainbow {
@@ -60,6 +67,6 @@ svg {
   height: 1.25rem;
   width: 1.25rem;
 }
-svg:hover{
-    color: rgba(21, 255, 204, 0.835);
+svg:hover {
+  color: rgba(21, 255, 204, 0.835);
 }

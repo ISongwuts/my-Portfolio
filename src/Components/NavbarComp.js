@@ -18,17 +18,17 @@ function NavbarComp() {
           </Nav>
         </Navbar.Collapse>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="https://www.facebook.com/profile.php?id=100009561062285">
+          <Nav className="me-auto rows">
+            <Nav.Link className="padding-icon" href="https://www.facebook.com/profile.php?id=100009561062285">
               <FaFacebook />
             </Nav.Link>
-            <Nav.Link href="https://www.instagram.com/isongwut.me/">
+            <Nav.Link className="padding-icon" href="https://www.instagram.com/isongwut.me/">
               <FaInstagram />
             </Nav.Link>
-            <Nav.Link href="https://www.tiktok.com/@isongwut?is_copy_url=1&is_from_webapp=v1&lang=th-TH">
+            <Nav.Link className="padding-icon" href="https://www.tiktok.com/@isongwut?is_copy_url=1&is_from_webapp=v1&lang=th-TH">
               <FaTiktok />
             </Nav.Link>
-            <Nav.Link href="https://github.com/ISongwuts">
+            <Nav.Link className="padding-icon" href="https://github.com/ISongwuts">
               <FaGithub />
             </Nav.Link>
           </Nav>
