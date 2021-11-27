@@ -24,7 +24,24 @@
     text-decoration: none;
     color: #fff;
     
+    
 }
+.liveDemo{
+    text-decoration: none;
+    color: rgb(15, 179, 255);
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 2px solid rgb(15, 159, 255);
+}
+.liveDemo:hover{
+    transition: .5s all ease;
+    background-color: rgb(15, 159, 255);
+    color: #000;
+}
+
 
 .card > .thumbnail {
   width: 100%;

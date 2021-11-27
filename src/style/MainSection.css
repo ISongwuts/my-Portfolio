@@ -20,4 +20,8 @@
     .content-3{
         font-size: .75rem;
     }
+    .Typing-container{
+        width: 90%;
+        margin: 0 auto;
+    }
 }
