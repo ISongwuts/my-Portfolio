@@ -11,18 +11,21 @@ function ProjectContent() {
       date: "Published on Oct 8, 2021",
       title: "Iot Application",
       link: "https://github.com/ISongwuts/IOT-APP",
+      demo: "https://github.com/ISongwuts/IOT-APP"
     },
     {
       cover: project2,
       date: "Published on Nov 26, 2021",
       title: "Crypto-Table",
       link: "https://github.com/ISongwuts/Crypto-Table",
+      demo: "https://isongwut-project-cryptotable.netlify.app/"
     },
     {
       cover: project3,
       date: "Published on Nov 27, 2021",
       title: "Todo-List",
       link: "https://github.com/ISongwuts/Crypto-Table",
+      demo: "https://isongwut-project-todolist.netlify.app/"
     },
   ];
   return (
@@ -48,7 +51,7 @@ function ProjectContent() {
                         </h3>
                       </Col>
                       <Col>
-                          <a className="liveDemo"href="/">Live Demo</a>
+                          <a className="liveDemo"href={item.demo}>Live Demo</a>
                       </Col>
                     </Row>
                   </div>

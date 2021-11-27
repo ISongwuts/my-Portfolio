@@ -23,4 +23,12 @@
     .ProjectSection {
         height: 100%;
     }
+    .liveDemo{
+        font-size: 1rem;
+        padding: 5px;
+        margin: 5px;
+    }
+    .link-to{
+        font-size: .75rem;
+    }
 }

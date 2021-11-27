@@ -15,4 +15,12 @@
     .AboutSection{
         height: 100%;
     }
+    .content-word{
+        font-size: 1rem;
+    }
+    .AboutContent-container{
+        width: 90vw;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
