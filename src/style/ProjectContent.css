@@ -26,6 +26,10 @@
     
     
 }
+.row-btn{
+    margin: 0 auto;
+    margin-top: 2rem;
+}
 .liveDemo{
     text-decoration: none;
     color: rgb(15, 179, 255);

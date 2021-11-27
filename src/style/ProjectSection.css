@@ -1,6 +1,6 @@
 .ProjectSection {
     max-width: 120rem;
-    max-height: 170vh;
+    max-height: 180vh;
     height: 120vh;
     background: linear-gradient(-45deg, #000000, #000000, #252121, #000000);
 	background-size: 400% 400%;
@@ -24,11 +24,11 @@
         height: 100%;
     }
     .liveDemo{
-        font-size: 1rem;
+        font-size: .75rem;
         padding: 5px;
         margin: 5px;
     }
     .link-to{
-        font-size: .75rem;
+        font-size: 1.25rem;
     }
 }

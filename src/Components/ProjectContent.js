@@ -11,21 +11,21 @@ function ProjectContent() {
       date: "Published on Oct 8, 2021",
       title: "Iot Application",
       link: "https://github.com/ISongwuts/IOT-APP",
-      demo: "https://github.com/ISongwuts/IOT-APP"
+      demo: "https://github.com/ISongwuts/IOT-APP",
     },
     {
       cover: project2,
       date: "Published on Nov 26, 2021",
       title: "Crypto-Table",
       link: "https://github.com/ISongwuts/Crypto-Table",
-      demo: "https://isongwut-project-cryptotable.netlify.app/"
+      demo: "https://isongwut-project-cryptotable.netlify.app/",
     },
     {
       cover: project3,
       date: "Published on Nov 27, 2021",
       title: "Todo-List",
       link: "https://github.com/ISongwuts/Crypto-Table",
-      demo: "https://isongwut-project-todolist.netlify.app/"
+      demo: "https://isongwut-project-todolist.netlify.app/",
     },
   ];
   return (
@@ -42,18 +42,21 @@ function ProjectContent() {
                   <img src={item.cover} alt="Thumbnail" className="thumbnail" />
                   <div className="content">
                     <p className="date">{item.date}</p>
-                    <Row>
-                      <Col>
-                        <h3 className="project-title">
-                          <a className="link-to" href={item.link}>
-                            {item.title}
+                    <h3 className="project-title link-to">{item.title}</h3>
+                    <Container className="row-btn">
+                      <Row>
+                        <Col>
+                          <a className="liveDemo" href={item.link}>
+                            Source Code
                           </a>
-                        </h3>
-                      </Col>
-                      <Col>
-                          <a className="liveDemo"href={item.demo}>Live Demo</a>
-                      </Col>
-                    </Row>
+                        </Col>
+                        <Col>
+                          <a className="liveDemo" href={item.demo}>
+                            Live Demo
+                          </a>
+                        </Col>
+                      </Row>
+                    </Container>
                   </div>
                 </div>
               </Col>
