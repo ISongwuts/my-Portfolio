@@ -14,6 +14,7 @@ import Cer11 from "../img/certificate/cer11.png";
 import Cer12 from "../img/certificate/cer12.png";
 import Cer13 from "../img/certificate/cer13.png";
 import Cer14 from "../img/certificate/cer14.png";
+import Cer15 from "../img/certificate/cer15.png";
 
 function CertificateContent() {
   const obj_img = [
@@ -87,6 +88,11 @@ function CertificateContent() {
       title: "School Activity",
       content: "Microbit",
     },
+    {
+        img: Cer15,
+        title: "IT Experience KMITL",
+        content: "Python Programming",
+      },
   ];
   return (
     <div className="CertificateContent-container">

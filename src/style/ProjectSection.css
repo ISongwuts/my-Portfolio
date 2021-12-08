@@ -21,7 +21,7 @@
 }
 @media only screen and (max-width: 768px) {
     .ProjectSection {
-        height: 100%;
+        height: 165vh;
     }
     .liveDemo{
         font-size: .75rem;

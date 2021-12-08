@@ -80,3 +80,14 @@
   transform: translateY(-2rem);
   box-shadow: 0 20px 40px -5px rgba(192, 2, 106, 0.3);
 }
+@media only screen and (max-width: 768px) {
+    .wrap-project{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vh;
+    }
+    .ProjectContent-container {
+        margin-top: 5vh;
+      }
+}
