@@ -15,6 +15,8 @@ import Cer12 from "../img/certificate/cer12.png";
 import Cer13 from "../img/certificate/cer13.png";
 import Cer14 from "../img/certificate/cer14.png";
 import Cer15 from "../img/certificate/cer15.png";
+import Cer16 from "../img/certificate/cer16.jpeg";
+import Cer17 from "../img/certificate/cer17.PNG";
 
 function CertificateContent() {
   const obj_img = [
@@ -92,6 +94,16 @@ function CertificateContent() {
         img: Cer15,
         title: "IT Experience KMITL",
         content: "Python Programming",
+      },
+      {
+        img: Cer16,
+        title: "Thailand Online Competitive Programming Contest",
+        content: "Using python language",
+      },
+      {
+        img: Cer17,
+        title: "DevLab",
+        content: "Using python language",
       },
   ];
   return (
