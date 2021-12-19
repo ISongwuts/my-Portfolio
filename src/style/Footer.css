@@ -1,0 +1,74 @@
+.icon-list{
+    list-style-type: none;
+}
+.contact-area {
+    border-bottom: 1px solid #353C46;
+}
+.footer-content{
+    margin:0;
+}
+.contact-content p {
+    font-size: 15px;
+    position: relative;
+}
+.wrap-footer{
+    background-color: #141414;
+}
+.contact-content p::after {
+    background: #353C46;
+    bottom: -30px;
+    content: "";
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    width: 80%;
+}
+
+.contact-content h6 {
+    color: #8b9199;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.contact-content span {
+    color: #353c47;
+    margin: 0 10px;
+}
+
+.contact-social {
+    margin-top: 30px;
+}
+
+.contact-social > ul {
+    display: inline-flex;
+}
+
+.contact-social ul li a {
+    border: 1px solid #8b9199;
+    color: #8b9199;
+    display: inline-block;
+    height: 40px;
+    margin: 0 10px;
+    padding-top: 7px;
+    transition: all 0.4s ease 0s;
+    width: 40px;
+}
+
+.contact-social ul li a:hover {
+    border: 1px solid #00ccff;
+    color: #00a2ff;
+}
+
+section, footer {
+    background: #141414;
+    color: #868c96;
+}
+
+footer p {
+    padding: 20px 0;
+    text-align: center;
+}
+.icon-list{
+    padding:0;
+}

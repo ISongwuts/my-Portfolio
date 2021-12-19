@@ -5,6 +5,7 @@ function ProjectSection(){
     return(
         <div className="ProjectSection" id="project-section">
             <ProjectContent />
+            
         </div>
     )
 }
